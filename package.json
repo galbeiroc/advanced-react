@@ -5,5 +5,10 @@
   "main": "lib/server.js",
   "repository": "https://github.com/galbeiroc/advanced-react.git",
   "author": "galbeiroc <alcresgu_1989@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.1.0",
+    "eslint-plugin-react": "^7.26.1"
+  }
 }
