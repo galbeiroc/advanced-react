@@ -7,7 +7,7 @@
   "author": "galbeiroc <alcresgu_1989@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon --exec babel-node lib/server.js",
+    "server": "NODE_PATH=./lib nodemon --exec babel-node lib/server.js",
     "start": "webpack -w --mode development",
     "build": "webpack --mode production",
     "test": "jest --watch"
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "axios": "^0.24.0",
     "babel-loader": "^8.2.3",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
