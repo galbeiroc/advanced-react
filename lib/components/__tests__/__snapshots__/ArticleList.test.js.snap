@@ -2,14 +2,14 @@
 
 exports[`ArticleList render correctly 1`] = `
 <div>
-  <Article
+  <ArticleWrapper
     article={
       Object {
         "id": "a",
       }
     }
   />
-  <Article
+  <ArticleWrapper
     article={
       Object {
         "id": "b",
